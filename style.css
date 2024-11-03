@@ -1,0 +1,16 @@
+@import url(styles/header.css);
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --cor-branca: #FFFFFF;
+    --cor-azul-principal: #0041CF;
+    --cor-azul-secundario: #002169;
+    --cor-azul-terciario: #1B60F6;
+    --cor-laranja-principal: #FE6601;
+
+}
+
+*{
+    font-family:'Poppins';
+}
