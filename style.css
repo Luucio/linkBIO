@@ -18,6 +18,6 @@
 .conteiner{
    background-image: url(img/background.png);
    max-height: 100vh;
-   
+   background-size: cover;
    background-repeat: no-repeat;
 }
