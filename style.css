@@ -14,3 +14,10 @@
 *{
     font-family:'Poppins';
 }
+
+.conteiner{
+   background-image: url(img/background.png);
+   max-height: 100vh;
+   
+   background-repeat: no-repeat;
+}
