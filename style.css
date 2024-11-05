@@ -16,8 +16,88 @@
 }
 
 .conteiner{
-   background-image: url(img/background.png);
-   max-height: 100vh;
-   background-size: cover;
-   background-repeat: no-repeat;
+    display: flex;
+    background-image: url(img/background.png);
+    max-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 161px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner__caixaLinks{
+    position: relative;
+    display: flex;
+    background-color: rgba(27, 96, 246, 0.21);
+    flex-direction: column;
+    padding: 46px 17px 70px 10px; 
+    gap: 22px;
+    overflow: hidden;
+    border-radius: 15px;
+    justify-content: center;
+    height: 400px;
+    width: 342px;
+    align-items: center;
+}
+
+.conteiner__caixaLinks__buttons{
+    display: flex;
+    text-decoration: none;
+    background-color: rgba(27, 96, 246, 0.21);
+    text-align: center;
+    color: var(--cor-branca);
+    align-items: center;
+    gap: 9px;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 700;
+    height: 60px;
+    width: 308px;
+}
+
+
+.conteiner__caixaLinks__buttons__imagens__whatsapp{
+    height: 40px;
+}
+
+.conteiner__caixaLinks__buttons__imagens__solucoes{
+    height: 50px;
+}
+
+.conteiner__caixaLinks__buttons__imagens__portifolio{
+    height: 45px;
+}
+
+.conteiner__caixaLinks__buttons__gmail{
+    height: 28px;
+}
+
+.solucoes{
+    background-image: url(img/backgroud\ solucoes.svg);
+}
+
+.redes{
+    display: flex;
+    margin-top: 47px;
+    width: 185px;
+    background: linear-gradient(to right, #0041CF, #002169);
+    border: solid 0.5px var(--cor-branca);
+    gap: 18px;
+
+}
+
+.footer{
+    display: flex;
+    position: fixed;
+    background-color: rgba(0, 65, 207, 0.5);
+    bottom: 0;
+    width: 100vw;
+    height: 30px;
+    font-family: 'Poppins';
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: var(--cor-branca);
+    font-size: 12px;
 }
