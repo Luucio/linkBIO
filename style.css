@@ -15,6 +15,12 @@
     font-family:'Poppins';
 }
 
+.main__logo{
+    display: flex;
+    justify-content: center;
+    margin: 58px 0px 47px 0px;
+}
+
 .conteiner{
     display: flex;
     background-image: url(img/background.png);
@@ -100,4 +106,26 @@
     font-weight: 400;
     color: var(--cor-branca);
     font-size: 12px;
+}
+
+.saibaMais{
+    display: flex;
+    height: 81px;
+    justify-content: center;
+}
+
+.saibaMais__imagem{
+    margin-left: 10px;
+}
+
+.conteiner__caixaLinks__buttons__tituloSaibaMais{
+    font-size: 25px;
+    margin-top: 8px;
+    color: var(--cor-laranja-principal);
+}
+
+.conteiner__caixaLinks__buttons__paragrafoSaibaMais{
+    font-size: 10px;
+    width: 240px;
+    margin-bottom: 17px;
 }
